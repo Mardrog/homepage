@@ -1,0 +1,28 @@
+.navigation__unorderedList {
+    padding: 0px;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.navigation__listElement {
+    padding: 10px;
+    margin: 20px;
+}
+
+.navigation__link {
+    padding: 10px;
+    background-color: #ffc42d;
+    text-decoration: none;
+    border: 1px solid #ffc42d;
+    box-shadow: 15px -10px 13px 0px rgba(0, 0, 0, 0.34);
+    color: black;
+}
+
+.navigation__link:visited {
+    color: red;
+}
+
+.navigation__link:hover {
+    background-color: #d5d5d5;
+    border: 2px solid black;
+}

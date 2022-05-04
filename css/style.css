@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1000px;
+    padding: 0 10px 0 10px;
+    margin: auto;
+}
+

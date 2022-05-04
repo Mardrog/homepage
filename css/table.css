@@ -1,0 +1,38 @@
+.section__tableContainer {
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__games {
+    margin-bottom: 50px;
+}
+
+.table__caption {
+    font-size: 30px;
+    caption-side: bottom;
+    text-align: right;
+}
+
+.table__tableCell {
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.table__tableRow:hover {
+    background: #d5d5d5;
+}
+
+.table__tableCell--tableHeader {
+    background-color: #ffc42d;
+}
+
+.table__posterInformation {
+    font-weight: normal;
+    font-size: 15px;
+}

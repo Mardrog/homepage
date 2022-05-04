@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <title>Wojnowiak Paweł</title>
+</head>
+
+<body class="body">
+    <header>
+        <h1 class="header">Wojnowiak Paweł</h1>
+        <p class="header__paragraph"><img class="header__selfie js-selfie" height="400"
+                src="https://i.postimg.cc/0rR0sgZK/pawel-wojnowiak.jpg" alt="Wojnowiak Paweł">
+        </p>
+        <div class="header__buttonsContainer">
+            <button class="header__button js-hideSelfieButton"><span class="js-hide">Ukryj</span>
+                zdjęcie</button>
+            <button class="header__button js-changeThemeButton">Ustaw <span class="js-theme">żółte</span>
+                tło</button>
+        </div>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__unorderedList">
+            <li class="navigation__listElement"><a class="navigation__link" href="#o-mnie">O mnie</a></li>
+            <li class="navigation__listElement"><a class="navigation__link" href="#ulubione-gry">Ulubione gry</a></li>
+            <li class="navigation__listElement"><a class="navigation__link" href="#ulubione-filmy">Ulubione filmy</a>
+            </li>
+            <li class="navigation__listElement"><a class="navigation__link" href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <article class="article" id="o-mnie">
+            <h2 class="article__header">Kilka słów o mnie</h2>
+            <p class="navigation__aboutMeSection">Mam na imię Paweł, mam 26 lat. Pochodzę z Grodziska
+                Wielkopolskiego pod
+                Poznaniem.<br>
+                Interesuję
+                się elektroniczną rozrywką oraz kinematografią.
+                W wolnych chwilam ćwiczę kalistenikę, oglądam serialę, filmy i gram w gry wideo.
+                W zeszłym roku postanowiłem zainteresować się również <b>programowaniem</b>. Przeszukiwałem Internet aby
+                znaleźć
+                odpowiedni kurs dla siebie. Natrafiłem na <span class="navigation__specialWord">YouCode</span>, który
+                prowadzi
+                Krzysiek
+                Dąbrowski.
+                Postanowiłem przyjsć na live, który organizował dla chętnych osób. Wtedu pomyślałem sobie:
+                <i><em>muszę</em>
+                    tam
+                    być i dołączyć do społeczności</i>
+            </p>
+        </article>
+        <section class="section" id="ulubione-gry">
+            <h2 class="section__header">Moje ulubione gry</h2>
+            <div class="section__tableContainer">
+                <table class="table table__games">
+                    <caption class="section__caption">GRY</caption>
+                    <thead>
+                        <tr class="table__tableRow">
+                            <th class="table__tableCell table__tableCell--tableHeader" scope="col">LP</th>
+                            <th class="table__tableCell table__tableCell--tableHeader" scope="col">Tytuł</th>
+                            <th class="table__tableCell table__tableCell--tableHeader" scope="col">Rok produkcji
+                            </th>
+                            <th class="table__tableCell table__tableCell--tableHeader" scope="col">Producent</th>
+                            <th class="table__tableCell table__tableCell--tableHeader" scope="col">Wydawca</th>
+                            <th class="table__tableCell table__tableCell--tableHeader" scope="col">
+                                <br>Plakat<br><span class="section__posterInformation">(kliknij w plakat aby dowiedzieć
+                                    się
+                                    więcej)</span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table__tableRow">
+                            <th class="table__tableCell table__tableCell--tableHeader" scope="row">1</th>
+                            <td class="table__tableCell">Dark Souls</td>
+                            <td class="table__tableCell">2011</td>
+                            <td class="table__tableCell">From Software</td>
+                            <td class="table__tableCell">Bandai Namco</td>
+                            <td class="table__tableCell"><a title="Strona na gry-online.pl poświęcona grze Dark Souls"
+                                    rel="noreferrer noopener" target="_blank"
+                                    href="https://www.gry-online.pl/gry/dark-souls/zd445"><img height="200"
+                                        src="https://i.postimg.cc/HLtFxz7h/dark-souls.webp"
+                                        alt=" plakat Dark Souls"></a>
+                            </td>
+                        </tr>
+                        <tr class="table__tableRow">
+                            <th class="table__tableCell table__tableCell--tableHeader" scope="row">2</th>
+                            <td class="table__tableCell">Bloodborne</td>
+                            <td class="table__tableCell">2015</td>
+                            <td class="table__tableCell">From Software</td>
+                            <td class="table__tableCell">Sony</td>
+                            <td class="table__tableCell"><a title="Strona na gry-online.pl poświęcona grze Bloodborne"
+                                    rel="noreferrer noopener" target="_blank"
+                                    href="https://www.gry-online.pl/gry/bloodborne/z33d75"><img height="200"
+                                        src="https://i.postimg.cc/jqNKzMrR/bloodborne.jpg" alt=" plakat Bloodborne"></a>
+                            </td>
+                        </tr>
+                        <tr class="table__tableRow">
+                            <th class="table__tableCell table__tableCell--tableHeader" scope="row">3</th>
+                            <td class="table__tableCell">World of Warcract</td>
+                            <td class="table__tableCell">2004</td>
+                            <td class="table__tableCell" colspan="2">Blizzard Entertainment
+                            </td>
+                            <td class="table__tableCell"><a
+                                    title="Strona na gry-online.pl poświęcona grze World of Warcraft"
+                                    rel="noreferrer noopener" target="_blank"
+                                    href="https://www.gry-online.pl/gry/world-of-warcraft/zd1b19"><img height="200"
+                                        src="https://i.postimg.cc/02Mgf7Lz/world-of-warcraft.jpg"
+                                        alt="plakat World of Warcraft"></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="section" id="ulubione-filmy">
+            <h2 class="section__header">Moje ulubione filmy</h2>
+            <div class="tableContainer">
+                <table class="table">
+                    <caption class="table__caption">FILMY</caption>
+                    <thead>
+                        <tr class="table__tableRow">
+                            <th class="table__tableCell table__tableCell--tableHeader" scope="col">LP</th>
+                            <th class="table__tableCell table__tableCell--tableHeader" scope="col">Tytuł</th>
+                            <th class="table__tableCell table__tableCell--tableHeader" scope="col">Data premiery
+                            </th>
+                            <th class="table__tableCell table__tableCell--tableHeader" scope="col">Reżyseria</th>
+                            <th class="table__tableCell table__tableCell--tableHeader" scope="col">Scenariusz</th>
+                            <th class="table__tableCell table__tableCell--tableHeader" scope="col">
+                                <br>Plakat<br><span class="table__posterInformation">(kliknij w
+                                    plakat
+                                    aby
+                                    dowiedzieć się więcej)</span>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="section__tableRow">
+                            <th class="table__tableCell table__tableCell--tableHeader" scope="row">1</th>
+                            <td class="table__tableCell">Wsypa Tajemnic</td>
+                            <td class="table__tableCell">13.02.2010</td>
+                            <td class="table__tableCell">Martin Scorsese</td>
+                            <td class="table__tableCell">Laeta Kalogridis</td>
+                            <td class="table__tableCell"><a
+                                    title="Strona na filmweb.pl poświęcona filmowi Wyspa Tajemnic"
+                                    rel="noreferrer noopener" target="blank"
+                                    href="https://www.filmweb.pl/film/Wyspa+tajemnic-2010-464256"><img height="200"
+                                        src="https://i.postimg.cc/mgCvxBZR/wyspa-tajemnic.jpg"
+                                        alt="plakat Wyspa Tajemnic"></a>
+                            </td>
+                        </tr>
+                        <tr class="table__tableRow">
+                            <th class="table__tableCell table__tableCell--tableHeader" scope="row">2</th>
+                            <td class="table__tableCell">Kill Bill</td>
+                            <td class="table__tableCell">17.10.2003</td>
+                            <td class="table__tableCell" colspan="2">Quentin Tarantino</td>
+                            <td class="table__tableCell"><a title="Strona na filmweb.pl poświęcona filmowi Kill Bill"
+                                    rel="noreferrer noopener" target="_blank"
+                                    href="https://www.filmweb.pl/film/Kill+Bill-2003-33200"><img height="200"
+                                        src="https://i.postimg.cc/tgbLpw76/kill-bill.jpg" alt="plakat Kill Bill"></a>
+                            </td>
+                        </tr>
+                        <tr class="table__tableRow">
+                            <th class="table__tableCell table__tableCell--tableHeader" scope="row">3</th>
+                            <td class="table__tableCell">Django</td>
+                            <td class="table__tableCell">11.12.2012</td>
+                            <td class="table__tableCell" colspan="2">Quentin Tarantino</td>
+                            <td class="table__tableCell"><a title="Strona na filmweb.pl poświęcona filmowi Django"
+                                    rel="noreferrer noopener" target="_blank"
+                                    href="https://www.filmweb.pl/film/Django-2012-620541"><img height="200"
+                                        src="https://i.postimg.cc/tCLKmYj2/django.jpg" alt="plakat Django"></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="kontakt">
+        <p>Strona wykonana na potrzeby kursu <strong>YouCode</strong></p>
+        <p><a href="mailto:pawel.wojnowiak@gmail.com">pawel.wojnowiak@gmail.com</a></p>
+        <p>Tel.: <a href="tel:+48123456789">123456789</a></p>
+    </footer>
+
+</body>
+
+</html>

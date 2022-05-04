@@ -1,0 +1,14 @@
+.article__header {
+    background-color: #ffc42d;
+    padding: 10px;
+    background-color: #ffc42d;
+    font-weight: normal;
+}
+
+.navigation__aboutMeSection {
+    font-size: 20px;
+}
+
+.navigation__specialWord {
+    color: red;
+}
